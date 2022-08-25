@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding-top: 80px;
+    text-align: center;
+    background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+img{
+    border-radius: 50%;
+    width: 400px;
+    height: 300px;
+    padding:100px;
+
+}
+#welcome{
+    position: absolute;
+    bottom:0;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#bio{
+    padding: 600px;
+    font-family: cursive;
+
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top:10px;
+    right: 30px;
+    z-index: 10;
+    cursor:pointer;
+}
+.links{
+    float:left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom:5px;
+    font-family:fantasy;
+    font-size:20px;
+    
+
+}
+h5{
+    background-color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+#contact{
+    width:100%;
+}
